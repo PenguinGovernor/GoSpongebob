@@ -8,11 +8,6 @@ import (
 	"unicode"
 )
 
-var (
-	textToConvert string
-	verboseMode   bool
-)
-
 func textToSponge(s string) string {
 	letterIndex := 1
 	stringArr := []rune(strings.ToUpper(s))
